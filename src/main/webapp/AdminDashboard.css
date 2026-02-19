@@ -1,0 +1,43 @@
+
+.container{
+	display: grid;
+	grid-template-columns:1fr;
+	min-height: 100vh;
+}
+@media(min-width: 768px){
+	.container{
+		grid-template-columns: 14rem 1fr;
+	}
+}
+.side_section{
+	overflow-x: auto;
+	background-color: lemonchiffon;
+	padding: 5px;
+	height: 100%;
+}
+.table-container{
+	overflow-x: auto;
+	width: 100%;
+	padding: 20px;
+	background-color: aliceblue;
+	height: 100%;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #ddd;
+	background-color: white;
+	min-width: 600px;
+}
+th,td{
+	text-align: center;
+	padding: 12px;
+	border: 1px solid #ddd;
+}
+.action-update{
+	color: green;
+	margin-right: 10px;
+}
+.action-delete{
+	color: red;
+}
